@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Jomolhari', serif;
   color: #222;
   background: #f7f5f0;
 }
@@ -22,6 +22,11 @@ a:hover {
 }
 
 /* Section Styles */
+
+ul.nav {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
 
 .main-nav {
   width: 100%;
@@ -78,7 +83,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: white;
@@ -87,11 +92,21 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
+  text-shadow: 4px 4px 4px #aaa;
 } 
 .location {
   background-color: #222;
   color: yellow;
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
 }
+
+h2 {
+  text-shadow: 4px 4px 4px #aaa;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -101,6 +116,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+ 
 }
 .card:hover {
   border-color: #04adfc;
@@ -209,3 +225,12 @@ a.social:hover {
 
 }
 
+* {
+box-sizing: content-box
+}
+
+experience {
+text-align: center;
+background: url(welding.jpg) no-repeat top center;
+
+}
