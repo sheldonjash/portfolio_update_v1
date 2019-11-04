@@ -60,9 +60,9 @@ ul.nav {
   color: white
 }
 
-header {
-  text-align: center;
+.home-header {
   background: url('images/Shoys-Beach.jpg') no-repeat top center ;
+  text-align: center;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -71,6 +71,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -225,12 +226,84 @@ a.social:hover {
 
 }
 
-* {
-box-sizing: content-box
+.exp-header {
+  background: url('images/welding.jpg') no-repeat top center ;
+  text-align: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: lightblue;
+  overflow: hidden;
+  padding-bottom: 700px;
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
 }
 
-experience {
+ul.nav {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+
+
+
+div.welder {
+padding: 20px;
+color: aqua;
+
+}
+
+.auditor-header {
 text-align: center;
-background: url(welding.jpg) no-repeat top center;
+background: url(images/alegria2.jpg) no-repeat top center;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-color: lightblue;
+overflow: hidden;
+padding-bottom: 60px;
+font-family: 'Merienda', cursive;
+font-size: 25px;
+}
+
+div.auditor {
+padding: 20px;
+color: #001f3f;
+
+}
+
+.hobbies-header {
+  text-align: left;
+  background: url(images/T&T1.jpeg) no-repeat top center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-bottom: 800px;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+h1 {
+  text-shadow: 4px 4px 4px whitesmoke;
+}
+
+ul.nav {
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+}
+
+div.Basketball {
+padding: 50px;
+}
+
+div.Gaming {
+padding: 35px;
+}
+
+div.Beach {
+padding: 35px;
 
 }
