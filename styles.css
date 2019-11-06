@@ -15,7 +15,8 @@ body {
 
 a {
   text-decoration: rgb(231, 129, 40);
-  color: rgb(148, 148, 243);
+  color: rgb(243, 10, 173);
+  font-size: 20px;
 }
 a:hover {
   color: #0e97f1;
@@ -30,7 +31,7 @@ ul.nav {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgba(221, 183, 183, 0);
   min-height: 10px;
   padding: 10px;
   position: fixed;
@@ -43,12 +44,14 @@ ul.nav {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  font-size: 30px;
 }
 
 .nav .name {
-    display: block;
+    display: box;
     margin-right: auto;
-    color: rgb(35, 219, 219);
+    color: orangered;
+    font-size: 30px;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -57,7 +60,7 @@ ul.nav {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: orangered
 }
 
 .home-header {
@@ -69,7 +72,7 @@ ul.nav {
   background-attachment: scroll;
   background-color: lightblue;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 header {
@@ -79,7 +82,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -87,40 +90,40 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: white;
-  color: black;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 30px;
   display: table;
   margin: 10px auto;
   font-family: 'Tangerine', cursive;
-  font-size: 50px;
-  text-shadow: 4px 4px 4px #aaa;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px white;
 } 
 .location {
-  background-color: #222;
+  background-color: rgba(34, 34, 34, 0);
   color: yellow;
   font-family: 'Tangerine', cursive;
   font-size: 40px;
 }
 
 h2 {
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px white;
 }
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 900px;
   text-align: left;
-  background: #fff;
+  background: rgb(158, 147, 147);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
  
 }
 .card:hover {
-  border-color: #04adfc;
+  border-color: teal;
 }
 
 ul.skills {
@@ -131,7 +134,7 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #f0ec00;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -227,7 +230,7 @@ a.social:hover {
 }
 
 .exp-header {
-  background: url('images/welding.jpg') no-repeat top center ;
+  background: url('images/Welder1.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
   background-position: center center;
@@ -235,59 +238,41 @@ a.social:hover {
   background-attachment: scroll;
   background-color: lightblue;
   overflow: hidden;
-  padding-bottom: 700px;
-  font-family: 'Tangerine', cursive;
-  font-size: 50px;
-}
-
-ul.nav {
-  font-family: 'Satisfy', cursive;
-  font-size: 20px;
+  padding-top: 80px;
 }
 
 
-
-div.welder {
-padding: 20px;
-color: aqua;
-
+.card {
+  margin: 30px;
+  padding: 20px 30px 30px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
 }
 
-.auditor-header {
-text-align: center;
-background: url(images/alegria2.jpg) no-repeat top center;
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-color: lightblue;
-overflow: hidden;
-padding-bottom: 60px;
-font-family: 'Merienda', cursive;
-font-size: 25px;
+.card:hover {
+  border-color: orangered;
 }
 
-div.auditor {
-padding: 20px;
-color: #001f3f;
 
-}
 
 .hobbies-header {
-  text-align: left;
-  background: url(images/T&T1.jpeg) no-repeat top center;
+  text-align: center;
+  background: url(images/T&T-beach.jpg) no-repeat top center;
   background-size: cover;
   background-position: center center;
   background-attachment: scroll;
   background-repeat: no-repeat;
   overflow: hidden;
-  padding-bottom: 800px;
+  padding-top: 80px;
   font-family: 'Pacifico', cursive;
-  font-size: 20px;
 }
 
 h1 {
-  text-shadow: 4px 4px 4px whitesmoke;
+  text-shadow: 4px 4px 4px white;
 }
 
 ul.nav {
@@ -295,15 +280,4 @@ ul.nav {
   font-size: 20px;
 }
 
-div.Basketball {
-padding: 50px;
-}
 
-div.Gaming {
-padding: 35px;
-}
-
-div.Beach {
-padding: 35px;
-
-}
