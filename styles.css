@@ -49,7 +49,7 @@ ul.nav {
   font-size: 30px;
 }
 
-.nav.name {
+.nav .name {
     display: box;
     margin-right: auto;
     color: orangered;
