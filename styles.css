@@ -32,7 +32,7 @@ ul.nav {
 
 nav {
   width: 100%;
-  background: rgba(8, 0, 0, 0.897);
+  background: rgba(8, 0, 0, 0);
   min-height: 10px;
   padding: 10px;
   position: fixed;
