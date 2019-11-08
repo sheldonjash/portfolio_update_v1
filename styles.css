@@ -18,8 +18,9 @@ a {
   color: rgb(243, 10, 173);
   font-size: 20px;
 }
+
 a:hover {
-  color: #0e97f1;
+  color: orangered;
 }
 
 /* Section Styles */
@@ -31,12 +32,13 @@ ul.nav {
 
 .main-nav {
   width: 100%;
-  background: rgba(221, 183, 183, 0);
+  background: rgba(8, 0, 0, 0);
   min-height: 10px;
   padding: 10px;
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -47,18 +49,21 @@ ul.nav {
   font-size: 30px;
 }
 
-.nav .name {
+.nav.name {
     display: box;
     margin-right: auto;
     color: orangered;
     font-size: 30px;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
+
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: orangered
 }
@@ -89,6 +94,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+
 .tag {
   background-color: rgba(255, 255, 255, 0);
   color: rgb(0, 0, 0);
@@ -99,7 +105,8 @@ header .profile-image:hover {
   font-family: 'Tangerine', cursive;
   font-size: 48px;
   text-shadow: 4px 4px 4px white;
-} 
+}
+
 .location {
   background-color: rgba(34, 34, 34, 0);
   color: yellow;
@@ -111,19 +118,35 @@ h2 {
   text-shadow: 4px 4px 4px white;
 }
 
-.card {
+.background {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 30px 25px;
   max-width: 900px;
   text-align: left;
-  background: rgb(158, 147, 147);
+  background: rgb(130, 204, 233);
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 60px;
   transition: all .5s;
- 
+ }
+
+.background:hover {
+  border-color: orangered;
+
 }
-.card:hover {
-  border-color: teal;
+
+.Goals {
+  margin: 30px;
+  padding: 20px 30px 25px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
+}
+
+.Goals:hover {
+  border-color: orangered;
 }
 
 ul.skills {
@@ -175,21 +198,27 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
+
 a.twitter {
   background-image: url(images/twitter.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
+
 a.github {
   background-image: url(images/github.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -230,7 +259,7 @@ a.social:hover {
 }
 
 .exp-header {
-  background: url('images/Welder1.jpg') no-repeat top center ;
+  background: url('images/welding.jpg') no-repeat top center ;
   text-align: center;
   background-size: cover;
   background-position: center center;
@@ -242,9 +271,9 @@ a.social:hover {
 }
 
 
-.card {
+.welding {
   margin: 30px;
-  padding: 20px 30px 30px;
+  padding: 20px 30px 25px;
   max-width: 900px;
   text-align: left;
   background: rgb(130, 204, 233);
@@ -253,7 +282,22 @@ a.social:hover {
   transition: all .5s;
 }
 
-.card:hover {
+.welding:hover {
+  border-color: orangered;
+}
+
+.auditor {
+  margin: 30px;
+  padding: 20px 30px 25px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
+}
+
+.auditor:hover {
   border-color: orangered;
 }
 
@@ -271,13 +315,52 @@ a.social:hover {
   font-family: 'Pacifico', cursive;
 }
 
-h1 {
-  text-shadow: 4px 4px 4px white;
+.basketball {
+  margin: 30px;
+  padding: 20px 30px 25px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
 }
 
-ul.nav {
-  font-family: 'Satisfy', cursive;
-  font-size: 20px;
+.basketball:hover {
+  border-color: orangered;
 }
+
+.gaming {
+  margin: 30px;
+  padding: 20px 30px 25px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
+}
+
+.gaming:hover {
+  border-color: orangered;
+}
+
+.beach {
+  margin: 30px;
+  padding: 20px 30px 25px;
+  max-width: 900px;
+  text-align: left;
+  background: rgb(130, 204, 233);
+  border-bottom: 4px solid #ccc;
+  border-radius: 60px;
+  transition: all .5s;
+}
+
+.beach:hover {
+  border-color: orangered;
+}
+
+
+
 
 
